@@ -86,22 +86,38 @@ nav{
     position: relative;
 
     /* ANIMATION */
-    animation: typing 5s steps(25), blink 1s step-end infinite alternate;
+    /* animation: typing 1s steps(3), blink 1s step-end infinite alternate; */
+    animation: FadeInAnimation ease 2s;
+    animation-delay: none;
     white-space: nowrap;
     overflow: hidden;
 }
 
-@keyframes typing {
+.heading_inline{
+    color: rgb(199, 214, 191);
+    text-align: center;
+    font-size: 5vw;
+    width: 100%;
+    position: relative;
+
+    /* ANIMATION */
+    /* animation: typing 1s steps(3), blink 1s step-end infinite alternate; */
+    animation: FadeInAnimation ease 2s;
+    animation-duration: 3s;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes FadeInAnimation {
     from {
       width: 0
     }
   }
       
-  @keyframes blink {
+  /* @keyframes blink {
     50% {
       border-color: transparent
     }
-  }
+  } */
 /* ANIMATION EBD */
 
 .headingline1{
