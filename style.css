@@ -215,14 +215,14 @@ hr{
 }
 
 
-.row{
+/* .row{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     min-height: 50vh;
     margin: 20px auto;
-    }
+    } */
     
 .box{
     width: 45%;
@@ -506,3 +506,6 @@ path {
     height: 100px;
 }
 /* COPYRIGHT ENDS */
+.testing{
+    margin-top: 50px;
+}
