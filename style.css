@@ -442,6 +442,50 @@ path {
     font-size: 3vh;
 }
 
+.profile3{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;  
+    /* background-color: #96ce90; */
+    /* color: #1d4719; */
+    align-items: center;
+    justify-content: center;
+}   
+
+.profile3 img{
+    padding: 10px 10px;
+}
+.profile3 ul{
+    color: #1d4719;
+    padding: 10px 10px;
+}
+.profile3 ul b{
+    font-size: 3vh;
+}
+
+.profile4{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;  
+    /* background-color: #96ce90; */
+    /* color: #1d4719; */
+    align-items: center;
+    justify-content: center;
+}   
+
+.profile4 img{
+    padding: 10px 10px;
+}
+.profile4 ul{
+    color: #1d4719;
+    padding: 10px 10px;
+}
+.profile4 ul b{
+    font-size: 3vh;
+}
+
 .cont_text img{
     border-radius: 100px;
 }
