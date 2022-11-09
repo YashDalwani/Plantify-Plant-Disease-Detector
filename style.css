@@ -227,6 +227,16 @@ hr{
 .box{
     width: 45%;
 }
+.Centre{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.Centre_2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
 .box img{
     height: auto;
